@@ -13,6 +13,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 	@EnableWebSocketMessageBroker
 	public class WebSocketConfiguration implements WebSocketMessageBrokerConfigurer {
 // this project will hep very much : https://github.com/dailycodebuffer/Spring-MVC-Tutorials/tree/master/spring-websocket
+// and youtube :  https://www.youtube.com/watch?v=n6ZqOwreFTA
 		@Override
 		public void registerStompEndpoints(StompEndpointRegistry registry) {
 			registry.addEndpoint("/stomp-endpoint").withSockJS();
