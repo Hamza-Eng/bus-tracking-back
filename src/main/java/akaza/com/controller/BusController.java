@@ -5,11 +5,13 @@ import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import jakarta.persistence.criteria.Path;
+
 @RestController
 @RequestMapping("bus")
 public class BusController {
 
-	@MessageMapping("/hello")
+	@MessageMapping("/hello")//Path : app/hello 
 	@SendTo("/topic/greetings")
 	public String greet(String message) throws InterruptedException {
 		Thread.sleep(2000);
