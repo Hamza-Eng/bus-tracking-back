@@ -1,4 +1,10 @@
-package akaza.com.module;
+package akaza.com.dto;
+
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
 public class ChatMessage {
     private String content;
     private String sender;

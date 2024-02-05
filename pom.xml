@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>org</groupId>
 	<artifactId>BUS-TRACKING.artifact</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>BUS-TRACKING</name>
 	<description>BUS-TRACKING </description>
 	<properties>
